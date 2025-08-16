@@ -1,6 +1,6 @@
-import { useTotalStore } from "./shared/stores/total-store";
+import { useTotalStore } from "../../shared/stores/total-store";
 
-function App() {
+function Home() {
 	const { clearTotal, setTotal, total } = useTotalStore();
 	return (
 		<>
@@ -36,4 +36,4 @@ function App() {
 	);
 }
 
-export default App;
+export default Home;
